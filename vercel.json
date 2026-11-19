@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/blank-1", "destination": "/terms-conditions", "permanent": true }
+  ]
+}
