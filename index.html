@@ -7,21 +7,21 @@
 <meta name="description" content="World Class Housing - corporate housing, property management and vacation rentals in Atlanta, GA.">
 <link rel="icon" href="/assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 
-<header class="site-header">
-  <div class="wrap header-inner">
+<header class="site-header overlay">
+  <div class="header-inner">
     <a class="logo" href="/"><img src="/assets/logo.png" alt="World Class Housing"></a>
     <nav class="main-nav" id="nav">
       <a href="/services-1">Services</a>
       <a href="/general-6">Properties</a>
-      <a href="/about-4">About Us</a>
-      <a href="/contact">Contact Us</a>
+      <a href="/about-4">About</a>
       <a href="/challenges">Program List</a>
-      <a class="btn btn-gold btn-nav" href="/contact">Find Your Stay</a>
+      <a class="btn-nav" href="/contact">Find Your Stay</a>
     </nav>
     <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">&#9776;</button>
   </div>
@@ -29,97 +29,130 @@
 
 <main>
 
-<section class="hero" style="background-image:url('/assets/hero-home.png')">
-  <div class="hero-overlay"></div>
-  <div class="wrap hero-content">
-    
-    <h1>OUR SERVICE IS<br><span class='gold'>WORLD CLASS</span></h1>
-    <div class="gold-rule"></div>
-    <p class="hero-sub">World Class Housing will ensure exceptional customer service for our guests, whether its for a vacation or---even relocation!</p>
-    <div class="btn-row"><a class="btn btn-gold" href="/services-1">View Listings</a><a class="btn btn-outline" href="/contact">Contact Us</a></div>
+<section class="hero-main" style="background-image:url('/assets/hero-home.png')">
+  <div class="hero-content">
+    <p class="kicker gold">Corporate Housing &middot; Atlanta, GA</p>
+    <h1>Our Service Is<br>World Class</h1>
+    <p class="hero-sub">Exceptional furnished stays for vacations, relocations and everything in between, backed by 20 years of property management experience.</p>
+    <div class="btn-row" style="justify-content:center"><a class="btn btn-gold" href="/contact">Find Your Stay</a><a class="btn btn-outline" href="/services-1">Explore Services</a></div>
   </div>
 </section>
 
-<section class="black-band center">
+<section class="sec sec-ivory center">
   <div class="wrap">
-    <h2><span class="gold italic big">20</span> Years of Experience</h2>
-    <p class="narrow">With 20 years of experience as a top property management company, our corporate housing system is proven to deliver high satisfaction for both owners and tenants.</p>
-    <a class="btn btn-outline" href="/about-4">About Us</a>
-  </div>
-</section>
-<section class="light-band">
-  <div class="wrap">
-    <h2>We Provide Quality</h2>
-    <div class="cards3">
-      <div class="card">
-        <img src="/assets/img-1f0349.jpg" alt="Property Management">
+    <p class="kicker gold">What We Do</p>
+    <h2 class="sec-title">Everything Your Stay Needs</h2>
+    <p class="sec-intro" style="margin:1rem auto 0">Full-service property solutions for owners and guests, tailored to the way you live, work and travel.</p>
+    <div class="num-grid">
+      <div class="num-item">
+        <span class="num">01</span>
         <h3>Property Management</h3>
-        <p>From tenant screening to maintenance and rent collection, we handle it all so you can focus on what matters most</p>
-        <a class="btn btn-outline-dark" href="/services-1">Read More</a>
+        <p>From tenant screening to maintenance and rent collection, we handle it all so you can focus on what matters most.</p>
       </div>
-      <div class="card">
-        <img src="/assets/host-greeting.jpg" alt="Host Greeting Guests">
-        <h3>Corporate Housing Vacation Rental</h3>
-        <p>Flexible property rentals for corporate clients, traveling nurses, vacationers, and more—short-term or long-term, we’ve got you covered!</p>
-        <a class="btn btn-outline-dark" href="/services-1">Read More</a>
+      <div class="num-item">
+        <span class="num">02</span>
+        <h3>Corporate Housing</h3>
+        <p>Fully-furnished homes with flexible leases for business travelers, relocating employees and project teams.</p>
       </div>
-      <div class="card">
-        <img src="/assets/yoga.jpg" alt="Vacation stay">
-        <h3>Full Consultation</h3>
-        <p>Become a top Airbnb/Vacation rental host with our expert coaching. Learn how to save on expenses and boost your profits!</p>
-        <a class="btn btn-outline-dark" href="/services-1">Read More</a>
+      <div class="num-item">
+        <span class="num">03</span>
+        <h3>Vacation Rentals</h3>
+        <p>Comprehensive vacation rental management that maximizes your property's income and every guest's experience.</p>
+      </div>
+      <div class="num-item">
+        <span class="num">04</span>
+        <h3>Host Consultation</h3>
+        <p>Become a top Airbnb or vacation rental host with expert coaching that cuts expenses and boosts profits.</p>
       </div>
     </div>
   </div>
 </section>
-<section class="black-band">
-  <div class="wrap split">
+
+<section class="sec sec-white center">
+  <div class="wrap">
+    <p class="kicker gold">Featured Stays</p>
+    <h2 class="sec-title">Places Our Guests Love</h2>
+    <p class="sec-intro" style="margin:1rem auto 0">A hand-picked look at the fully-furnished homes World Class Housing offers across Atlanta.</p>
+    <div class="prop-grid">
+      <div class="prop-card">
+        <img src="/assets/g4.jpg" alt="Furnished kitchen in a World Class Housing home">
+        <span class="tag">Corporate Housing &middot; Atlanta</span>
+        <h3>Fully-Furnished Homes</h3>
+        <p>Move-in-ready apartments, condos and single-family homes, set up for both work and rest.</p>
+        <span class="accent">Flexible leases</span>
+      </div>
+      <div class="prop-card">
+        <img src="/assets/h2.jpg" alt="Living room in a World Class Housing vacation rental">
+        <span class="tag">Vacation Rentals &middot; Atlanta</span>
+        <h3>Vacation-Ready Retreats</h3>
+        <p>Professionally managed rentals for weekend getaways and extended visits, cleaned between every guest.</p>
+        <span class="accent">Hotel-grade care</span>
+      </div>
+      <div class="prop-card">
+        <img src="/assets/h5.jpg" alt="Family living room in a World Class Housing relocation stay">
+        <span class="tag">Relocations &middot; Atlanta</span>
+        <h3>Neighborhood-Matched Stays</h3>
+        <p>Our area experts know Atlanta's neighborhoods and match mobile employees and families with the right fit.</p>
+        <span class="accent">Short or long term</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-dark">
+  <div class="wrap testi-grid">
+    <div class="testi-left">
+      <div class="quote-mark">&rdquo;</div>
+      <h2>Guests Who Found Their World Class Stay</h2>
+      <div class="divider"></div>
+      <p>Real words from guests and clients who trusted World Class Housing with their stay, their move and their property.</p>
+      <a class="btn btn-gold" href="/services-1">Our Services</a>
+    </div>
     <div>
-      <h2>Convenient Housing Solutions</h2>
-      <p>For business travelers, relocating employees, and project teams, World Class Housing (WCH) offers fully-furnished homes for an exceptional living experience. With flexible leases for short or long-term stays, WCH provides the best local housing options tailored to your needs. Our area experts know the neighborhoods inside out, ensuring the perfect fit for mobile employees or your own housing needs.</p>
-      <a class="btn btn-gold" href="/general-6">View More</a>
-    </div>
-    <img class="split-img" src="/assets/coffee-consult.jpg" alt="Coffee Shop Consultation">
-  </div>
-</section>
-<section class="light-band">
-  <div class="wrap">
-    <div class="gallery">
-      <img src="/assets/g4.jpg" alt="Property kitchen">
-      <img src="/assets/g5.jpg" alt="Dining area">
-      <img src="/assets/g7.jpg" alt="Property interior">
-      <img src="/assets/g8.jpg" alt="Property interior">
-      <img src="/assets/g9.jpg" alt="Property interior">
-      <img src="/assets/h2.jpg" alt="Bedroom">
-      <img src="/assets/h7.jpg" alt="Property photo">
-      <img src="/assets/h8.jpg" alt="Property photo">
-    </div>
-  </div>
-</section>
-<section class="black-band center">
-  <div class="wrap">
-    <h2>What We Stand For</h2>
-    <div class="cards3 quotes">
-      <div class="card quote"><p>"World Class Housing provides a lot of options far as rentals that fit within my requests and budget!"</p><h4>Marcus S.</h4></div>
-      <div class="card quote"><p>"They offered a unique blend of comfort, convenience, and efficiency, making it an excellent choice for business travelers and relocating employees."</p><h4>Janet P.</h4></div>
-      <div class="card quote"><p>"My recent experience in a stay at a World Class Housing unit surpassed my expectations in several ways."</p><h4>Morgan G.</h4></div>
-    </div>
-  </div>
-</section>
-<section class="contact-band" style="background-image:url('/assets/contact-bg.jpg')">
-  <div class="contact-overlay"></div>
-  <div class="wrap center">
-    <h2>Let’s Get Started</h2>
-    <p>Get in touch so we can start working together.</p>
-    <form class="contact-form" id="contactForm" onsubmit="return sendMail(this)">
-      <div class="form-row">
-        <input name="firstname" placeholder="First Name" required>
-        <input name="lastname" placeholder="Last Name" required>
+      <div class="testi-card">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"World Class Housing provides a lot of options far as rentals that fit within my requests and budget!"</p>
+        <p class="who">Marcus S.</p>
       </div>
-      <input name="email" type="email" placeholder="Email" required>
-      <textarea name="message" placeholder="Message" rows="5" required></textarea>
-      <button class="btn btn-gold" type="submit">Send</button>
-    </form>
+      <div class="testi-card">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>"They offered a unique blend of comfort, convenience, and efficiency, making it an excellent choice for business travelers and relocating employees."</p>
+        <p class="who">Janet P.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-ivory">
+  <div class="wrap split2">
+    <img src="/assets/coffee-consult.jpg" alt="Housing consultation over coffee">
+    <div>
+      <p class="kicker gold">Why WCH</p>
+      <h2>Convenient Housing Solutions</h2>
+      <div class="divider"></div>
+      <p>For business travelers, relocating employees, and project teams, World Class Housing offers fully-furnished homes for an exceptional living experience. With flexible leases for short or long-term stays, WCH provides the best local housing options tailored to your needs. Our area experts know the neighborhoods inside out, ensuring the perfect fit for mobile employees or your own housing needs.</p>
+      <a class="btn btn-gold" href="/general-6">View Properties</a>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band" style="background-image:url('/assets/contact-bg.jpg')">
+  <div class="wrap">
+    <div class="cta-card">
+      <p class="kicker gold">Contact Us</p>
+      <h2>Let's Get Started</h2>
+      <div class="divider" style="margin-left:auto;margin-right:auto"></div>
+      <p class="sec-intro">Get in touch so we can start working together.</p>
+      <form class="contact-form" id="contactForm" onsubmit="return sendMail(this)">
+        <div class="form-row">
+          <input name="firstname" placeholder="First Name" required>
+          <input name="lastname" placeholder="Last Name" required>
+        </div>
+        <input name="email" type="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" rows="5" required></textarea>
+        <button class="btn btn-gold" type="submit">Send</button>
+      </form>
+    </div>
   </div>
 </section>
 <script>

@@ -4,24 +4,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Properties | World Class Housing</title>
-<meta name="description" content="World Class Housing - corporate housing, property management and vacation rentals in Atlanta, GA.">
+<meta name="description" content="Fully-furnished corporate housing, vacation rentals and relocation stays in Atlanta, GA.">
 <link rel="icon" href="/assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
 
-<header class="site-header">
-  <div class="wrap header-inner">
+<header class="site-header overlay">
+  <div class="header-inner">
     <a class="logo" href="/"><img src="/assets/logo.png" alt="World Class Housing"></a>
     <nav class="main-nav" id="nav">
       <a href="/services-1">Services</a>
-      <a href="/general-6">Properties</a>
-      <a href="/about-4">About Us</a>
-      <a href="/contact">Contact Us</a>
+      <a href="/general-6" class="active">Properties</a>
+      <a href="/about-4">About</a>
       <a href="/challenges">Program List</a>
-      <a class="btn btn-gold btn-nav" href="/contact">Find Your Stay</a>
+      <a class="btn-nav" href="/contact">Find Your Stay</a>
     </nav>
     <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">&#9776;</button>
   </div>
@@ -29,40 +29,84 @@
 
 <main>
 
-<section class="hero" style="background-image:url('/assets/prop-kitchen.jpg')">
-  <div class="hero-overlay"></div>
-  <div class="wrap hero-content">
-    
+<section class="hero-page" style="background-image:url('/assets/prop-kitchen.jpg')">
+  <div class="hero-content">
+    <p class="kicker gold">Properties</p>
     <h1>Convenient Housing Solutions</h1>
-    <div class="gold-rule"></div>
-    
-    
   </div>
 </section>
 
-<section class="light-band">
+<section class="sec sec-white center">
   <div class="wrap">
-    <p class="narrow">For business travelers, relocating employees, and project teams requiring temporary housing, World Class Housing (WCH) provides fully-furnished homes that deliver an exceptional living experience. With flexible lease terms for short or long-term stays, WCH offers the best local housing options to meet your team's needs, whether you're arranging accommodations for mobile employees or seeking housing yourself. Our area experts know the neighborhoods and can identify the right solutions to fit your requirements.</p>
-    <div class="gallery"><img src="/assets/g1.jpg" alt="Living Room">
-<img src="/assets/g2.jpg" alt="Office Area">
-<img src="/assets/g3.jpg" alt="Backyard">
-<img src="/assets/g4.jpg" alt="Kitchen 3">
-<img src="/assets/g5.jpg" alt="Dining Area">
-<img src="/assets/g6.jpg" alt="Guest Bathroom">
-<img src="/assets/h1.jpg" alt="20220727_072738">
-<img src="/assets/h2.jpg" alt="20220723_082514">
-<img src="/assets/h3.jpg" alt="Master Down Bed (1)">
-<img src="/assets/h4.jpg" alt="Dining Room">
-<img src="/assets/h5.jpg" alt="Living Room">
-<img src="/assets/h6.jpg" alt="Backyard"></div>
+    <p class="kicker gold">Featured Stays</p>
+    <h2 class="sec-title">Inside Our Homes</h2>
+    <p class="sec-intro" style="margin:1rem auto 0">Every World Class Housing property is fully furnished and set up for an exceptional living experience.</p>
+    <div class="prop-grid">
+      <div class="prop-card">
+        <img src="/assets/g4.jpg" alt="Full kitchen in a WCH furnished home">
+        <span class="tag">Corporate Housing &middot; Atlanta</span>
+        <h3>Chef-Ready Kitchens</h3>
+        <p>Full kitchens set up for real cooking, so a long stay never feels like a hotel.</p>
+        <span class="accent">In every home</span>
+      </div>
+      <div class="prop-card">
+        <img src="/assets/h2.jpg" alt="Spacious living room in a WCH vacation rental">
+        <span class="tag">Vacation Rentals &middot; Atlanta</span>
+        <h3>Living Rooms That Host</h3>
+        <p>Roomy lounges for movie nights, team downtime and everything between.</p>
+        <span class="accent">Space to unwind</span>
+      </div>
+      <div class="prop-card">
+        <img src="/assets/g7.jpg" alt="Quiet reading corner in a WCH home">
+        <span class="tag">Corporate Housing &middot; Atlanta</span>
+        <h3>Quiet Corners</h3>
+        <p>Reading nooks and workspaces away from the noise of the day.</p>
+        <span class="accent">Work-from-home ready</span>
+      </div>
+      <div class="prop-card">
+        <img src="/assets/h5.jpg" alt="Family-size lounge in a WCH relocation home">
+        <span class="tag">Relocations &middot; Atlanta</span>
+        <h3>Family-Size Lounges</h3>
+        <p>Open living areas that fit the whole household comfortably.</p>
+        <span class="accent">Room for everyone</span>
+      </div>
+      <div class="prop-card">
+        <img src="/assets/g1.jpg" alt="Comfortable gathering space in a WCH rental">
+        <span class="tag">Vacation Rentals &middot; Atlanta</span>
+        <h3>Gathering Spaces</h3>
+        <p>Comfortable seating for groups, families and long stays.</p>
+        <span class="accent">Furnished to feel like home</span>
+      </div>
+      <div class="prop-card">
+        <img src="/assets/h7.jpg" alt="Modern bathroom in a WCH property">
+        <span class="tag">Corporate Housing &middot; Atlanta</span>
+        <h3>Modern Bathrooms</h3>
+        <p>Clean, updated baths, refreshed and inspected between guests.</p>
+        <span class="accent">Hotel-grade care</span>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="cta-band">
-  <div class="wrap">
-    <h2>Let's Work Together</h2>
-    <p>We utilize targeted marketing and extensive industry knowledge to get top dollar for sellers or find the perfect property for buyers.</p>
-    <p>Contact us today to learn how we can help you successfully navigate your home journey!</p>
+<section class="sec sec-ivory">
+  <div class="wrap split2">
+    <img src="/assets/host-greeting.jpg" alt="WCH host greeting guests on arrival">
+    <div>
+      <p class="kicker gold">Why WCH</p>
+      <h2>The Right Fit, Every Time</h2>
+      <div class="divider"></div>
+      <p>For business travelers, relocating employees, and project teams requiring temporary housing, World Class Housing provides fully-furnished homes that deliver an exceptional living experience. With flexible lease terms for short or long-term stays, WCH offers the best local housing options to meet your team's needs.</p>
+      <p>Our area experts know the neighborhoods and can identify the right solutions to fit your requirements, whether you're arranging accommodations for mobile employees or seeking housing yourself.</p>
+      <a class="btn btn-gold" href="/contact">Ask About Availability</a>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band" style="background-image:url('/assets/contact-bg.jpg')">
+  <div class="wrap center">
+    <p class="kicker gold">Let's Work Together</p>
+    <h2>Find Your Stay</h2>
+    <p>Contact us today and we will match you with the right home for your stay.</p>
     <a class="btn btn-gold" href="/contact">Contact Us</a>
   </div>
 </section>
